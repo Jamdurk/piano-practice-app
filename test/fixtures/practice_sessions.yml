@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  started_at: 2026-08-06 21:38:26
+  duration_seconds: 1
+
+two:
+  name: MyString
+  started_at: 2026-08-06 21:38:26
+  duration_seconds: 1
