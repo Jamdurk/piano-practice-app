@@ -1,6 +1,6 @@
 class PracticeSessionsController < ApplicationController
     def index
-        render json: { message: "Hello, index!" }
+        render json: PracticeSession.all 
     end
 
     def show 
