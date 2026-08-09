@@ -11,9 +11,9 @@ class StatsController < ApplicationController
         streak_days: streak_days
       }
     end
-  
+
     private
-  
+
     def streak_days
       days = PracticeSession.pluck(:started_at).map(&:to_date).uniq
       day = Date.current
@@ -25,4 +25,4 @@ class StatsController < ApplicationController
       end
       streak
     end
-  end
+end
